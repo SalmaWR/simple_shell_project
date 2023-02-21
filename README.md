@@ -50,7 +50,7 @@ Example:
 $ echo "echo 'hello'" | ./hsh
 'hello'
 $
-
+```
 If hsh is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, hsh displays the prompt $  when it is ready to read a command.
 
 
@@ -59,7 +59,7 @@ Example:
 ```c
 $./hsh
 $
-
+```
 Alternatively, if command line arguments are supplied upon invocation, hsh treats the first argument as a file from which to read commands. The supplied file should contain one command per line. hsh runs each of the commands contained in the file in order before exiting.
 
 ## Environment
@@ -73,7 +73,7 @@ The home directory of the current user and the default directory argument for th
 ```c
 $ echo "echo $HOME" | ./hsh
 /home/projects
-
+```
 ## PWD
 
 The current working directory as set by the cd command.
@@ -81,7 +81,7 @@ The current working directory as set by the cd command.
 ```c
 $ echo "echo $PWD" | ./hsh
 /home/projects/alx/simple_shell
-
+```
 ## OLDPWD
 
 The previous working directory as set by the cd command.
@@ -89,7 +89,7 @@ The previous working directory as set by the cd command.
 ```c
 $ echo "echo $OLDPWD" | ./hsh
 /home/projects/alx/printf
-
+```
 ## PATH
 
 A colon-separated list of directories in which the shell looks for commands. A null directory name in the path (represented by any of two adjacent colons, an initial colon, or a trailing colon) indicates the current directory.
@@ -98,7 +98,7 @@ A colon-separated list of directories in which the shell looks for commands. A n
 ```c
 $ echo "echo $PATH" | ./hsh
 /home/projects/.cargo/bin:/home/projects/.local/bin:/home/projects/.rbenv/plugins/ruby-build/bin:/home/projects/.rbenv/shims:/home/projects/.rbenv/bin:/home/projects/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/projects/.cargo/bin:/home/projects/workflow:/home/projects/.local/bin
-
+```
 
 ## Command Execution
 
@@ -128,7 +128,7 @@ $ ./hsh
 $ ^C
 $ ^C
 $
-
+```
 
 
 ## Authors
