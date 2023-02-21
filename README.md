@@ -133,8 +133,8 @@ $
 
 ## Authors
 
-[Beshoy Kamel](https://github.com/beshoyraafat20) - Developer
-([contact]())
-[Salma wagdy](https://github.com/SalmaWR) - Developer
-([contact](salma.wagdy@hotmail.com))
+[Beshoy Kamel](https://github.com/beshoyraafat20) - Developer ([contact]())
+
+
+[Salma wagdy](https://github.com/SalmaWR) - Developer ([contact](salma.wagdy@hotmail.com))
 
